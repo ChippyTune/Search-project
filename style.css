@@ -1,9 +1,14 @@
 input {
-    
+    display: block;
+}
+@media screen and (max-width: 470px) {
+    #text {
+        flex-direction: column;
+        }
 }
 #text {
     border-radius: 25px;
-    height: 25px;
+    height: 44px;
 }
 form { 
     margin: 0 auto;
@@ -25,5 +30,8 @@ form {
 #outside-links {
     display: flex;
     align-content: center;
-    position:absolute; top: 15px; right: 15px;
+    position: absolute; top: 15px; right: 15px;
+}
+input[type=submit] {
+
 }
