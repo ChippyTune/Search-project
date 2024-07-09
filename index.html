@@ -3,21 +3,27 @@
     <head>
         <title>Google search project</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
-    <body style="background-color: #202124">
-        <div id="main-page">
-         <h1 font-family="product sans" id="google" style="font-size: 100px" style="color: white">Google</h1>
-         <form action="https://google.com/search">
-            <input type="text" name="q" size="75px">
-            <input type="submit" value="Google Search">        
-         </form>
-         <a href="https://www.google.com/imghp?hl=en&ogbl">
-            <button>Google Images</button>
-         </a>
-         <a href="https://www.google.com/advanced_search">
-            <button>Advanced Search</button>
-         </a>
-        </div>
+    <body style="background-color: #202124"> 
+            <div id="main-page">
+             <h1 id="google">Google</h1>
+             <form action="https://google.com/search">
+               <input type="text" name="q" size="75px" id="text">
+               <input type="submit" value="Google Search">
+               <input type="submit" name="btnl" value="I'm Feeling Lucky">        
+             </form>
+            </div>
+            <div id="outside-links">
+             <a href="images.html">
+                <button>Images</button>
+             </a>
+             <a href="advanced.html">
+                <button>Advanced</button>
+             </a>
+            </div>
     </body>
 </html>
